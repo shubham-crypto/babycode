@@ -138,7 +138,7 @@ const Home = () => {
       </div>
 
       {/* Main content area */}
-      <div className="flex-grow flex flex-col items-center space-y-4 bg-gray-100">
+      <div className="flex-grow flex flex-col items-center space-y-4 bg-gray-100  h-full">
         <div className="flex justify-between items-center w-full pl-12 pr-12 bg-white border-2 p-1">
           <span className="text-xl font-semibold">Your Progress Summary</span>
 
@@ -200,16 +200,16 @@ const Home = () => {
               </div>
            </div>
         </div>
-        <div className="flex space-x-8 mr-auto pl-12 pr-12 w-full h-full">
-          <div className=" w-3/5">
+        <div className="flex space-x-8 mr-auto pl-12 pr-12 w-full overflow-hidden h-full">
+          <div className=" w-3/5 flex flex-col">
              <h1 className="text-lg font-semibold"> Prepare with ease</h1>
-             <div className="flex flex-col space-y-4  pl-2">
-                 <div className="flex space-x-4">
+             <div className="flex flex-col space-y-4  pl-2 h-full  ">
+                 <div className="flex space-x-4 h-40%">
                     <div className="flex flex-col space-y-2 items-center">
                       <img
                         src={speak}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Speaking</p>
                     </div>
@@ -217,7 +217,7 @@ const Home = () => {
                       <img
                         src={listen}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Listening</p>
                     </div>
@@ -225,7 +225,7 @@ const Home = () => {
                       <img
                         src={read}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Reading</p>
                     </div>
@@ -233,17 +233,17 @@ const Home = () => {
                       <img
                         src={write}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Writing</p>
                     </div>
                  </div>
-                 <div className="flex space-x-4">
+                 <div className="flex space-x-4 h-40%">
                     <div className="flex flex-col space-y-2 items-center">
                       <img
                         src={vocab}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Vocabulary</p>
                     </div>
@@ -251,7 +251,7 @@ const Home = () => {
                       <img
                         src={cla}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Classes</p>
                     </div>
@@ -259,7 +259,7 @@ const Home = () => {
                       <img
                         src={exam}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Book IELTS Exam</p>
                     </div>
@@ -267,16 +267,16 @@ const Home = () => {
                       <img
                         src={news}
                         alt="r1"
-                        className="w-32 h-28 rounded-3xl"
+                        className="w-28 h-24 rounded-3xl"
                       />
                       <p className="text-sm mt-2">Student News</p>
                     </div>
                  </div>
              </div>
           </div>
-          <div className="flex flex-col space-y-4 h-3/4 mt-8">
+          <div className="flex flex-col space-y-4 h-full mt-8">
               <button
-                className="flex items-center p-2 rounded-lg bg-white pl-16 pr-16 shadow-md h-auto">
+                className="flex items-center p-2 rounded-lg bg-white pl-16 pr-16 shadow-md h-12">
                 <img 
                 src={yt}
                 alt="youtube" 
@@ -284,7 +284,7 @@ const Home = () => {
                 />
                 <span className="text-sm">App Guide Video</span> 
               </button>
-              <div className="flex flex-col space-y-2 bg-white rounded-lg p-4 flex-grow">
+              <div className="flex flex-col space-y-2 bg-white rounded-lg p-4  h-44">
                  <h1 className="text-lg font-bold">Practice Mock Tests</h1>
                  <p className="text-sm">Get the authentic IELTS exam<br></br> experience with all four modules<br></br> covered!</p>
                  <button className="text-white bg-blue-700 w-full p-1 rounded-l-full rounded-r-full text-sm">
