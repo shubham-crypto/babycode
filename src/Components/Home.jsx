@@ -200,7 +200,7 @@ const Home = () => {
               </div>
            </div>
         </div>
-        <div className="flex space-x-8 mr-auto pl-12 pr-12 w-full h-full">
+        <div className="flex space-x-8 mr-auto pl-12 pr-12 w-full ">
           <div className=" w-3/5">
              <h1 className="text-lg font-semibold"> Prepare with ease</h1>
              <div className="flex flex-col space-y-4  pl-2">
